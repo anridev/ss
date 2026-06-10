@@ -1,0 +1,12 @@
+{
+  "spam_threshold": 0.6046,
+  "short_text_word_count": 2,
+  "short_text_threshold": 0.9,
+  "very_short_text_word_count": 1,
+  "very_short_text_threshold": 0.96,
+  "target_min_precision": 0.98,
+  "vectorizer": "tfidf_word_char",
+  "word_max_features": 10000,
+  "char_max_features": 5000,
+  "min_df": 3
+}

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local backups & logs
+_backup_models/
+*.log
+
+# Generated at training time (reproducible via finetune.py)
+test_split.jsonl
+
+# Large dataset downloaded from Hugging Face (keep only the config)
+Datasets/*
+!Datasets/0.4.json
+
+# Unused upstream category model (this project is binary-only)
+category_model.onnx
