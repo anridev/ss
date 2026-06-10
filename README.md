@@ -1,2 +1,0 @@
-# ss
-sms spam detection
